@@ -9,7 +9,7 @@ function App() {
 
   return (
     <TonConnectUIProvider
-      manifestUrl="https://ton-connect.github.io/demo-dapp-with-react-ui/tonconnect-manifest.json"
+      manifestUrl="https://www.jsonkeeper.com/b/PRB0"
       uiPreferences={{ theme: THEME.DARK }}
       walletsListConfiguration={{
         includeWallets: [
