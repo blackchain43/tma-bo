@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import "./App.scss";
 import { THEME, TonConnectUIProvider } from "@tonconnect/ui-react";
 import { Header } from "./components/Header/Header";
 import WebApp from "@twa-dev/sdk";
@@ -39,21 +39,23 @@ function App() {
         twaReturnUrl: "https://web.telegram.org/k/#@tmabobot",
       }}
     >
-      <Header />
-      <h1>TWA + Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-      <div className="card">
-        <button
-          onClick={() =>
-            WebApp.showAlert(`Hello World! Current count is ${count}`)
-          }
-        >
-          Show Alert
-        </button>
+      <div className="app">
+        <Header />
+        <h1>TWA React</h1>
+        <div className="card">
+          <button onClick={() => setCount((count) => count + 1)}>
+            count is {count}
+          </button>
+        </div>
+        <div className="card">
+          <button
+            onClick={() =>
+              WebApp.showAlert(`Hello World! Current count is ${count}`)
+            }
+          >
+            Show Alert
+          </button>
+        </div>
       </div>
     </TonConnectUIProvider>
   );
