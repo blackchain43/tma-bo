@@ -36,7 +36,7 @@ function App() {
         ],
       }}
       actionsConfiguration={{
-        twaReturnUrl: "https://web.telegram.org/k/#@tmabobot",
+        twaReturnUrl: "https://t.me/tmabobot",
       }}
     >
       <div className="app">
