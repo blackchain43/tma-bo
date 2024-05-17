@@ -36,7 +36,7 @@ function App() {
         ],
       }}
       actionsConfiguration={{
-        twaReturnUrl: "https://blackchain43.github.io/tma-bo",
+        twaReturnUrl: "https://t.me/tma_bo_bot/peanut",
       }}
     >
       <div className="app">
