@@ -9,7 +9,7 @@ function App() {
 
   return (
     <TonConnectUIProvider
-      manifestUrl="https://www.jsonkeeper.com/b/PRB0"
+      manifestUrl="https://www.jsonkeeper.com/b/BA8B"
       uiPreferences={{ theme: THEME.DARK }}
       walletsListConfiguration={{
         includeWallets: [
@@ -36,7 +36,7 @@ function App() {
         ],
       }}
       actionsConfiguration={{
-        twaReturnUrl: "https://t.me/tmabobot",
+        twaReturnUrl: "https://blackchain43.github.io/tma-bo",
       }}
     >
       <div className="app">
